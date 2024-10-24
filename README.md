@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dentist-WebApp
 A modern, responsive web application built with ReactJS for dental clinics. This app allows dental professionals to manage appointments, patient records, and services efficiently.
 # Tech Stack
@@ -9,6 +10,3 @@ Clone the repository: git clone https://github.com/brianstackKE/Dentist-WebApp.g
 Navigate to the web folder: cd Dentist-WebApp
 Install dependencies: npm install
 Run: npm start
-
-
-
