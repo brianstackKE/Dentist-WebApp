@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.meet-dr-wright {
+    padding: 20px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+  }
+  
+  .meet-dr-wright h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #333;
+  }
+  
+  .dr-wright-info {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .dr-photo img {
+    width: 480px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+  }
+  
+  .bio {
+    max-width: 600px;
+    text-align: left;
+  }
+  
+  .bio h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    color: #007bff;
+  }
+  
+  .bio p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+    font-family: 'Kanit';
+  }
+  
+  .bio ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .bio ul li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+    font-family: 'Kanit';
+  }
+  
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: 'Kanit';
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  

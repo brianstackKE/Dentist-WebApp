@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+.patient-resources {
+    padding: 20px 20px;
+    max-width: 1000%;
+    margin: 0 auto;
+    background-image: url('./images/bg2.webp');
+    text-align: center;
+  }
+  
+  .patient-resources h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #070707;
+  }
+  
+  .new-patient-forms,
+  .insurance-info,
+  .faq-section,
+  .post-treatment-care {
+    margin-bottom: 40px;
+    text-align: left;
+  }
+  
+  .new-patient-forms h3,
+  .insurance-info h3,
+  .faq-section h3,
+  .post-treatment-care h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0a0a0a;
+  }
+  
+  .new-patient-forms p,
+  .insurance-info p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #070707;
+    font-family: 'Kanit';
+  }
+  
+  .cta-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .faq-section .faq-item {
+    margin-bottom: 20px;
+  }
+  
+  .faq-question {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #070707;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Kanit';
+  }
+  
+  .faq-question:hover {
+    color: #e7eb0c;
+  }
+  
+  .faq-icon {
+    margin-left: 10px;
+    font-size: 18px;
+    transition: transform 0.3s ease;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #080808;
+  }
+  
+  .post-treatment-care ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+  
+  .post-treatment-care ul li {
+    font-size: 16px;
+    color: #020202;
+    margin-bottom: 10px;
+    font-family: 'Kanit';
+  }
+
+  .post-treatment-care p {
+    font-family: 'Kanit';
+  }
+  
+  .contact-cta .cta-button {
+    margin-top: 40px;
+  }
+  
